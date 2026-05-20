@@ -129,84 +129,96 @@
                 <p class="text-center text-[11px] text-slate-500 mt-2">Los de cases hieronder op om puzzelstukken van het gecensureerde bewijsmateriaal te verwijderen.</p>
             </div>
 
-            <div class="bg-slate-950/80 p-4 rounded-lg border border-slate-800">
-                <div class="text-center text-emerald-400 text-xs tracking-wider uppercase mb-4 border border-emerald-500/30 bg-emerald-950/20 py-2 rounded">
-                    Codewoord: Krijgt Hij Dan Maar Drie Cakejes Mee? (STAPPEN VAN x100 of :100)
-                </div>
-                
-                <!-- Ladder Schema -->
-                <div class="flex items-center gap-1 justify-between overflow-x-auto pb-2 scrollbar">
+            <div class="bg-slate-950/80 p-4 rounded-lg border border-slate-800 flex flex-col gap-3">
+                <!-- Ladder Schema Container (optimised for full visibility on all screens) -->
+                <div class="w-full flex items-center justify-between text-center select-none">
                     <!-- Unit Box km² -->
-                    <div class="flex flex-col items-center min-w-[50px] md:min-w-[70px]">
-                        <div class="w-10 h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-sm md:text-base">km²</div>
-                        <span class="text-[9px] text-slate-500 mt-1 uppercase">Krijgt</span>
+                    <div class="flex flex-col items-center flex-shrink">
+                        <div class="w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-[10px] sm:text-xs md:text-base">km²</div>
                     </div>
-                    <div class="flex-grow flex flex-col items-center justify-center text-[9px] text-slate-600 min-w-[30px] relative">
-                        <span class="text-emerald-500 font-bold">x100</span>
-                        <div class="w-full h-[1px] bg-slate-700 my-0.5 relative after:content-['▶'] after:absolute after:right-0 after:-top-1.5 after:text-[7px]"></div>
-                        <span class="text-red-500 font-bold">:100</span>
+                    <!-- Arrow -->
+                    <div class="flex-grow flex flex-col items-center justify-center text-[7px] sm:text-[9px] md:text-[10px] text-slate-600 min-w-0 px-0.5 relative">
+                        <span class="text-emerald-500 font-bold leading-none">x100</span>
+                        <div class="w-full h-[1px] bg-slate-700 my-1 relative after:content-['▶'] after:absolute after:right-0 after:-top-[5px] after:text-[6px] sm:after:text-[8px]"></div>
+                        <span class="text-red-500 font-bold leading-none">:100</span>
                     </div>
 
                     <!-- Unit Box hm² -->
-                    <div class="flex flex-col items-center min-w-[50px] md:min-w-[70px]">
-                        <div class="w-10 h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-sm md:text-base">hm²</div>
-                        <span class="text-[9px] text-slate-500 mt-1 uppercase">Hij</span>
+                    <div class="flex flex-col items-center flex-shrink">
+                        <div class="w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-[10px] sm:text-xs md:text-base">hm²</div>
                     </div>
-                    <div class="flex-grow flex flex-col items-center justify-center text-[9px] text-slate-600 min-w-[30px] relative">
-                        <span class="text-emerald-500 font-bold">x100</span>
-                        <div class="w-full h-[1px] bg-slate-700 my-0.5 relative after:content-['▶'] after:absolute after:right-0 after:-top-1.5 after:text-[7px]"></div>
-                        <span class="text-red-500 font-bold">:100</span>
+                    <!-- Arrow -->
+                    <div class="flex-grow flex flex-col items-center justify-center text-[7px] sm:text-[9px] md:text-[10px] text-slate-600 min-w-0 px-0.5 relative">
+                        <span class="text-emerald-500 font-bold leading-none">x100</span>
+                        <div class="w-full h-[1px] bg-slate-700 my-1 relative after:content-['▶'] after:absolute after:right-0 after:-top-[5px] after:text-[6px] sm:after:text-[8px]"></div>
+                        <span class="text-red-500 font-bold leading-none">:100</span>
                     </div>
 
                     <!-- Unit Box dam² -->
-                    <div class="flex flex-col items-center min-w-[50px] md:min-w-[70px]">
-                        <div class="w-10 h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-sm md:text-base">dam²</div>
-                        <span class="text-[9px] text-slate-500 mt-1 uppercase">Dan</span>
+                    <div class="flex flex-col items-center flex-shrink">
+                        <div class="w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-[10px] sm:text-xs md:text-base">dam²</div>
                     </div>
-                    <div class="flex-grow flex flex-col items-center justify-center text-[9px] text-slate-600 min-w-[30px] relative">
-                        <span class="text-emerald-500 font-bold">x100</span>
-                        <div class="w-full h-[1px] bg-slate-700 my-0.5 relative after:content-['▶'] after:absolute after:right-0 after:-top-1.5 after:text-[7px]"></div>
-                        <span class="text-red-500 font-bold">:100</span>
+                    <!-- Arrow -->
+                    <div class="flex-grow flex flex-col items-center justify-center text-[7px] sm:text-[9px] md:text-[10px] text-slate-600 min-w-0 px-0.5 relative">
+                        <span class="text-emerald-500 font-bold leading-none">x100</span>
+                        <div class="w-full h-[1px] bg-slate-700 my-1 relative after:content-['▶'] after:absolute after:right-0 after:-top-[5px] after:text-[6px] sm:after:text-[8px]"></div>
+                        <span class="text-red-500 font-bold leading-none">:100</span>
                     </div>
 
                     <!-- Unit Box m² -->
-                    <div class="flex flex-col items-center min-w-[50px] md:min-w-[70px]">
-                        <div class="w-10 h-10 md:w-12 md:h-12 bg-slate-900 border-2 border-purple-500 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-sm md:text-base">m²</div>
-                        <span class="text-[9px] text-slate-500 mt-1 uppercase">Maar</span>
+                    <div class="flex flex-col items-center flex-shrink">
+                        <div class="w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-slate-900 border-2 border-purple-500 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-[10px] sm:text-xs md:text-base">m²</div>
                     </div>
-                    <div class="flex-grow flex flex-col items-center justify-center text-[9px] text-slate-600 min-w-[30px] relative">
-                        <span class="text-emerald-500 font-bold">x100</span>
-                        <div class="w-full h-[1px] bg-slate-700 my-0.5 relative after:content-['▶'] after:absolute after:right-0 after:-top-1.5 after:text-[7px]"></div>
-                        <span class="text-red-500 font-bold">:100</span>
+                    <!-- Arrow -->
+                    <div class="flex-grow flex flex-col items-center justify-center text-[7px] sm:text-[9px] md:text-[10px] text-slate-600 min-w-0 px-0.5 relative">
+                        <span class="text-emerald-500 font-bold leading-none">x100</span>
+                        <div class="w-full h-[1px] bg-slate-700 my-1 relative after:content-['▶'] after:absolute after:right-0 after:-top-[5px] after:text-[6px] sm:after:text-[8px]"></div>
+                        <span class="text-red-500 font-bold leading-none">:100</span>
                     </div>
 
                     <!-- Unit Box dm² -->
-                    <div class="flex flex-col items-center min-w-[50px] md:min-w-[70px]">
-                        <div class="w-10 h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-sm md:text-base">dm²</div>
-                        <span class="text-[9px] text-slate-500 mt-1 uppercase">Drie</span>
+                    <div class="flex flex-col items-center flex-shrink">
+                        <div class="w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-[10px] sm:text-xs md:text-base">dm²</div>
                     </div>
-                    <div class="flex-grow flex flex-col items-center justify-center text-[9px] text-slate-600 min-w-[30px] relative">
-                        <span class="text-emerald-500 font-bold">x100</span>
-                        <div class="w-full h-[1px] bg-slate-700 my-0.5 relative after:content-['▶'] after:absolute after:right-0 after:-top-1.5 after:text-[7px]"></div>
-                        <span class="text-red-500 font-bold">:100</span>
+                    <!-- Arrow -->
+                    <div class="flex-grow flex flex-col items-center justify-center text-[7px] sm:text-[9px] md:text-[10px] text-slate-600 min-w-0 px-0.5 relative">
+                        <span class="text-emerald-500 font-bold leading-none">x100</span>
+                        <div class="w-full h-[1px] bg-slate-700 my-1 relative after:content-['▶'] after:absolute after:right-0 after:-top-[5px] after:text-[6px] sm:after:text-[8px]"></div>
+                        <span class="text-red-500 font-bold leading-none">:100</span>
                     </div>
 
                     <!-- Unit Box cm² -->
-                    <div class="flex flex-col items-center min-w-[50px] md:min-w-[70px]">
-                        <div class="w-10 h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-sm md:text-base">cm²</div>
-                        <span class="text-[9px] text-slate-500 mt-1 uppercase">Cakejes</span>
+                    <div class="flex flex-col items-center flex-shrink">
+                        <div class="w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-[10px] sm:text-xs md:text-base">cm²</div>
                     </div>
-                    <div class="flex-grow flex flex-col items-center justify-center text-[9px] text-slate-600 min-w-[30px] relative">
-                        <span class="text-emerald-500 font-bold">x100</span>
-                        <div class="w-full h-[1px] bg-slate-700 my-0.5 relative after:content-['▶'] after:absolute after:right-0 after:-top-1.5 after:text-[7px]"></div>
-                        <span class="text-red-500 font-bold">:100</span>
+                    <!-- Arrow -->
+                    <div class="flex-grow flex flex-col items-center justify-center text-[7px] sm:text-[9px] md:text-[10px] text-slate-600 min-w-0 px-0.5 relative">
+                        <span class="text-emerald-500 font-bold leading-none">x100</span>
+                        <div class="w-full h-[1px] bg-slate-700 my-1 relative after:content-['▶'] after:absolute after:right-0 after:-top-[5px] after:text-[6px] sm:after:text-[8px]"></div>
+                        <span class="text-red-500 font-bold leading-none">:100</span>
                     </div>
 
                     <!-- Unit Box mm² -->
-                    <div class="flex flex-col items-center min-w-[50px] md:min-w-[70px]">
-                        <div class="w-10 h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-sm md:text-base">mm²</div>
-                        <span class="text-[9px] text-slate-500 mt-1 uppercase">Mee</span>
+                    <div class="flex flex-col items-center flex-shrink">
+                        <div class="w-7 h-7 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center font-bold text-yellow-500 text-[10px] sm:text-xs md:text-base">mm²</div>
                     </div>
+                </div>
+
+                <!-- Mnemonic text placed beautifully directly under the entire schema -->
+                <div class="text-center bg-slate-900/40 p-2.5 rounded border border-slate-800 mt-1">
+                    <span class="text-[9px] text-slate-500 uppercase tracking-widest block mb-0.5">Ezelsbruggetje</span>
+                    <div class="text-xs sm:text-sm md:text-base text-yellow-500 font-bold uppercase tracking-wider font-mono">
+                        <span class="text-purple-400 underline decoration-purple-500/50">K</span>rijgt 
+                        <span class="text-purple-400 underline decoration-purple-500/50">H</span>ij 
+                        <span class="text-purple-400 underline decoration-purple-500/50">D</span>an 
+                        <span class="text-purple-400 underline decoration-purple-500/50">M</span>aar 
+                        <span class="text-purple-400 underline decoration-purple-500/50">D</span>rie 
+                        <span class="text-purple-400 underline decoration-purple-500/50">C</span>akejes 
+                        <span class="text-purple-400 underline decoration-purple-500/50">M</span>ee?
+                    </div>
+                    <span class="text-[9px] text-slate-400 block mt-1">
+                        Elke stap naar rechts is <span class="text-emerald-400 font-bold">x100</span> • Elke stap naar links is <span class="text-red-400 font-bold">:100</span>
+                    </span>
                 </div>
             </div>
 
